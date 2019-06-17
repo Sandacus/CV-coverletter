@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sandy Cover Letter Template
+%
+% Based on Twenty Seconds Resume/CV
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[11pt,a4paper]{SandyCV} % a4paper for A4
+\geometry{left=2.5cm, top=1cm, right=2cm, bottom=1.5cm, footskip=0.5cm} % Configure page margins with geometry
+\pagestyle{fancy}
+	\renewcommand{\headrulewidth}{0pt} % remove the header line
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. 
+\profilepic{SandyPortrait}
+\cvname{Alexander Robert Lamond} % Your name
+\cvjobtitle{PhD (Nott), MEng (Cantab)} % Job
+\myaddress{Flat 20 Meadowbank House, Robin Hood Way, Nottingham\\ NOTTS, NG2 1AN, UK}
+\cvlinkedin{}
+\cvnumberphone{+44 (0)7720 373595} % Phone number
+\cvsite{} % Personal website
+\cvmail{alexander.lamond@nottingham.ac.uk} % Email address
+\cvskype{}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	 COMPANY INFORMATION
+%----------------------------------------------------------------------------------------
+\recipient{Wardell Armstrong LLP}{The Energy Team \\ Manchester \\ UK} % The company being applied to
+\letterdate{\today} % The date on the letter, default is the date of compilation
+\lettertitle{Expression of interest for the role of Energy \& Climate Consultant} % The title of the letter
+\letteropening{Dear Energy Team of Wardell Armstrong LLP,} % How the letter is opened
+\letterclosing{Best regards,} % How the letter is closed
+%\letterenclosure[Attached]{Curriculum Vit\ae} % Any enclosures with the letter
+
+\makecvheader{}{}{}
+\makecvfooter{}{attached:~~curriculum vit\ae}{} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeCoverLetterName
+
+\makelettertitle % Print the title
+
+\begin{cvletter} % Environment for a list with descriptions
+
+\hspace{2.8cm} I am writing to express my interest in the role of \emph{\bf Energy \& Climate Consultant}. 
+
+\lettersection{About me}{10cm} 
+I am interested in sustainable energy production and utilisation, hence I was attracted to this position.
+My experience includes completing a PhD in Biogas utilisation systems (University of Nottingham), and an MEng in Chemical Engineering (Christ's College, University of Cambridge).
+This involved systems analysis (techno-economic and carbon emissions) as well as energy and material balances for mathematical models.
+
+I believe the varied experience of research and development in academia combined with work for two SMEs (Lindhurst Engineering Ltd. and Cambridge Carbon Capture) has given me the technical capabilities to fully understand any complex technical process I will be faced with, while simultaneously being able to communicate effectively with coworkers and internal customers from varying technical and socio-economic backgrounds.
+
+I have developed clear and concise report writing and presentation skills.
+Additionally I have strong IT and data handling skills, with experience of Excel as well as MATLAB and Python (NumPy, Flask, MatPlotLib libraries) programming languages.
+I have used Mac OSX, Windows 10 and Linux (Ubuntu 18.04, Raspian) operating systems.
+
+\lettersection{Why this role}{12cm}
+I was attracted to this role because it will allow me to apply the skills and expertise that I have gained through my time in academic and SME research and development environments to current sustainable energy projects.
+
+I was also inspired by the host of clients you have worked with.
+In particular, I am interested in sustainable transport and biomass sectors, which are part of the PEEL Energy portfolio.
+Additionally I would like to expand knowledge and skills to wind energy projects, which feature in your work with Voltalia UK Ltd.  
+
+The varied and dynamic role is exactly the environment I am looking for, in order to continue learning and improve my expertise of sustainable energy projects.
+  
+\end{cvletter}
+
+Thank you for taking the time to read this and I look forward to hearing from you soon.
+
+\makeletterclosing
+
+\end{document}
+
+
+
+
+
+
+
+
+
